@@ -1,3 +1,59 @@
 body {
-    background-color: skyblue;
+    background: rgb(66, 49, 250);
+    background: linear-gradient(53deg,rgb(128, 117, 248) 0%, rgb(75, 56, 250) 25%, rgb(6, 68, 226) 50%, rgb(75, 56, 250) 75%, rgb(128, 117, 248) 100%);
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+    height: 100vh;
+    padding: 0 5% 0 5%;
+}
+
+header {
+    align-content: center;
+    border-radius: 0 0 4vh 4vh;
+    text-align: center;
+    background: #1500ff;
+    background: linear-gradient(90deg,rgba(21, 0, 255, 1) 0%, rgba(0, 38, 133, 1) 50%, rgba(21, 0, 255, 1) 100%);
+    margin: 0 0 0 0;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 10%;
+}
+
+li {
+    list-style-type: disc;
+    margin-right: 3%;
+}
+
+li > h1 {
+    border-radius: 10vw;
+    background: #1500ff;
+    background: linear-gradient(90deg,rgba(21, 0, 255, 1) 0%, rgba(0, 38, 133, 1) 50%, rgba(21, 0, 255, 1) 100%);
+    padding: .2% .5% 0 .5%;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-size: large;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: center center;
+    font-size: medium;
+    margin-top: 0;
+    border: solid 2px rgba(21, 0, 255, 1);
+    background: #1500ff;
+    background: linear-gradient(19deg,rgba(21, 0, 255, 1) 0%, rgba(0, 38, 133, 1) 50%, rgba(21, 0, 255, 1) 100%);
+    border-radius: 0 5vh 5vh 5vh;
+    padding-left: .5%;
+    margin-left: 2%;
+}
+
+#main {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 90%;
+    border-radius: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
