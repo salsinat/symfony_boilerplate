@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Burgers du CRUDcroustillant{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
+        {% block stylesheets %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+        <header><h1>Liste des Burgers du CRUDcroustillant</header></h1>
+        <ol>
+            <li>
+                <h1>Le ClassiCroc</h1>
+                <p>Steak de bœuf grillé, cheddar fondant, salade, tomates, oignons rouges, sauce maison.</p>
+            </li>
+            <li>
+                <h1>Le Croc’Fromage</h1>
+                <p>Double cheddar, raclette fondue, oignons caramélisés, steak généreux, sauce crémeuse.</p>
+            </li>
+            <li>
+                <h1>Le PouletCroust</h1>
+                <p>Filet de poulet croustillant, salade croquante, pickles, cheddar, sauce miel-moutarde.</p>
+            </li>
+            <li>
+                <h1>Le VeggieCroquant 🌱</h1>
+                <p>Galette de pois chiches et légumes, roquette, tomates confites, feta, sauce yaourt-menthe.</p>
+            </li>
+            <li>
+                <h1>Le BBQ Crunch</h1>
+                <p>Steak bœuf ou poulet, bacon croustillant, cheddar, oignons frits, sauce barbecue fumée.</p>
+            </li>
+            <li>
+                <h1>Le Croc’Chèvre-Miel</h1>
+                <p>Steak, fromage de chèvre, miel, noix croquantes, roquette.</p>
+            </li>
+            <li>
+                <h1>Le MégaCrousti</h1>
+                <p>Double steak, double cheddar, bacon, œuf au plat, oignons frits, sauce CrudCroustillant.</p>
+            </li>
+            <li>
+                <h1>Le Fish’n’Croc</h1>
+                <p>Filet de poisson pané, salade, cornichons, cheddar, sauce tartare citronnée.</p>
+            </li>
+            <li>
+                <h1>Le SpicyCroc 🌶️</h1>
+                <p>Steak, cheddar, jalapeños, salade, sauce piquante maison.</p>
+            </li>
+            <li>
+                <h1>Le Sweet’n’Croc</h1>
+                <p>Poulet croustillant, ananas grillé, cheddar, sauce sucrée-salée.</p>
+            </li>
+        </ol>
+        {% endblock %}
+    </body>
+</html>
