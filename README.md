@@ -1,4 +1,4 @@
-# Symfony 7.3 Boilerplate 
+# Symfony 7.3 Boilerplate ([COURS](https://symfony-course.vercel.app/)
 
 Attention : Il vous faut PHP 8.2 pour faire fonctionner ce projet.
 
